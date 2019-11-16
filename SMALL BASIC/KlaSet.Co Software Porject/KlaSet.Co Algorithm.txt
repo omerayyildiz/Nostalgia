@@ -1,0 +1,42 @@
+PENCERE ADI
+GÝRÝÞ YAZISI
+SAAT VE TARÝH
+   ANAHTAR ÝSTE
+        ANAHTAR DOÐRU ÝSE
+YENÝ ÞÝFRE YARATMASINI ÝSTE
+    
+      ÞÝFRE UZUNLUÐU 7 OLMALI
+AD ÝSTE
+   VERÝYE YAZ
+NE ÝSTEDÝÐÝNÝ SOR 
+--------KÝÞÝSELLEÞTÝRME ÝSE
+        ÝLK BÝÇÝMLENDÝRME TARÝHÝNÝ  YAZ
+        BÝLGÝSAYARIMA BAKMASINI ÝSTE
+        PORTU ÝSTE
+        UYARI YAP
+           BÝÇÝMLENDÝRMEK ÝZÝN AL
+KÜÇÜK,BÜYÜK VEYA  DOÐRUSAL YAZILIP YAZILMAYACAÐINI SORGULA                 
+                    >MOD ÝSTE
+                          <MOD ÝÞ ÝSE
+                                     OFÝS DOSYALARI
+                          <MOD OKUL ÝSE
+                                   SINIF ÝSTE
+                                               9,10,11,12 DERSLERÝNE GÖRE
+                                                         ÖDEV,PERFORMANS,PROJE,UYGULAMA VE DÝÐER YAP
+                          <MOD FREE ÝSE
+                                        UZANTIYA GÖRE AYARLA
+                          <MOD YAZILIM VE TEKNOLOJÝ ÝSE
+                                        TURBO YA GÖRE YAP
+                                         MOD ÝÞLEMÝNÝ BÝTÝR
+                     DOSYALARI YARAT 
+                                 KENDÝ ÝCONUNU YAPTIR
+--------ÝNCELEME ÝSE ANLAT
+--------GELÝÞTÝRMEK ÝSE SMALL BASÝC VE NOTEPAD++ ÝNDÝRT
+--------FEEDBACK ÝSE KODU OKUTUP SATIR SAYISINA GÖRE FEED BACK AL.NOTEPAD E OTOMATÝK YAZI YAZSIN
+                 ÝNTERNETÝN BAÐLI OLUP OLMADIÐINA BAKIP TEPKÝ VERSÝN    
+                   MAÝL ADRESÝNÝ VERSÝN
+                        MAÝLÝ ATSIN                                                 
+          TEÞEKKÜR EDÝP VERÝLERÝ KAYDEDÝP TANITIMI YAPIP KAPATSIN          
+
+
+

@@ -1,0 +1,82 @@
+'Bu program KlaSet.Co Company için yapılmıştır.
+'Tüm Hakları Salıdır.
+'Klasör  düzenleme aracıdır ve tamamiyle  Open Source'dir.
+'Moonstar Freelancer Company Tarafından Programlanmıştır.
+'SXAasxqDS12345 password
+'------------------------------------------------------------------------------------------
+TextWindow.Title="KlaSet.Co Company V1.0 Beta"
+a = 0  'variable
+time = Clock.time
+day = clock.Day
+month = Clock.month
+year = Clock.year
+
+TextWindow.ForegroundColor="YELLOW"
+TextWindow.WriteLine("KlaSet.Co Company V1.0'a Hoşgeldiniz!")
+TextWindow.WriteLine("")
+TextWindow.WriteLine(time +"/"+day+"."+month+"."+year)
+
+begin:
+
+If a=5 Then
+  TextWindow.WriteLine("--------------------------------------")
+  TextWindow.WriteLine("MAALESEF 5 DEFA HATALI GİRDİNİZ!PROGRAM SONLANDIRILIYOR...")
+  Program.Delay(5000)
+   Program.End()
+ EndIf 
+ 
+ TextWindow.ForegroundColor="GREEN"
+  TextWindow.Write("Lütfen Size Verilen Ürün Anahtarını Giriniz:")
+  key=textwindow.Read()
+
+If key="SXAasxqDS12345" Then
+  TextWindow.ForegroundColor="YELLOW"
+  TextWindow.WriteLine("")
+     TextWindow.WriteLine("ANAHTAR BAŞARILI!<ANAHTARI SAKLAMANIZ ÖNERİLİR!>")       
+     TextWindow.WriteLine("")
+     TextWindow.WriteLine("Tekrardan Hoşgeldiniz!")
+     TextWindow.WriteLine("---------------------------------")
+          TextWindow.Write("Size Adınızla Hitap Etmek İsteriz:")
+          ad= textwindow.Read()
+          TextWindow.WriteLine("Merhaba "+ad+"!")
+              TextWindow.WriteLine("")
+            TextWindow.ForegroundColor="CYAN"
+       TextWindow.WriteLine("Bu Uygulamayı Hangi Amaç İçin İndirdiniz?") 
+           TextWindow.WriteLine("a-USB Kişiselleştirme")
+           TextWindow.WriteLine("b-İnceleme Amaçlı")
+           TextWindow.WriteLine("c-Uygulamayı Geliştirmek")
+           TextWindow.WriteLine("d-FEEDBACK")
+                   TextWindow.write("Lütfen Birini Seçiniz:")
+                          istek=TextWindow.Read()
+      If istek = "a" Or "USB Kişiselleştirme" then
+            TextWindow.ForegroundColor="yellow"
+            TextWindow.WriteLine("DOĞRU YERDESİN "+ad+"!")
+               Program.Delay(1000)
+            TextWindow.WriteLine("BİRKAÇ ADIMDA BUNU YAPABİLİRİZ!")
+                   Program.Delay(1000)
+                   TextWindow.WriteLine("İLK ÖNCE BİLGİSAYARIM'A GİRİP KİŞİSELLEŞTİRİLECEK USB'NİN PORTUNU ÖĞREN.ÖRNEĞİN (H:/G:/I:..)")
+             
+         TextWindow.WriteLine("---------------------------")
+                                  
+    
+
+
+
+EndIf     
+      
+                            
+ 
+
+
+
+
+
+
+
+
+    else
+      TextWindow.ForegroundColor="RED"
+      TextWindow.WriteLine("ANAHTAR HATALI,LÜTFEN TEKRAR DENEYİN!")
+      a=a+1
+      Goto begin
+    EndIf

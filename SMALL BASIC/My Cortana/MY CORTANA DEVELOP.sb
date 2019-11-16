@@ -1,0 +1,377 @@
+TextWindow.Write("PLEASE,INPUT THE PROGRAM KEY:")
+key=TextWindow.Read()
+
+If key="DEVELOPER X" Then
+  TextWindow.ForegroundColor="YELLOW"
+  TextWindow.CursorTop="green"
+  TextWindow.WriteLine("***********-HATA AYIKLAMA VE GELİŞTİRİCİ PENCERESİNE HOŞGELDİNİZ!-***********")
+  TextWindow.Write("NE YAPABİLDİĞİMİ GÖREBİLMEK İÇİN ENTER TUŞUNA BAS")
+  win=textwindow.Read()
+  
+  If win="" Then
+    TextWindow.ForegroundColor="green"
+    TextWindow.WriteLine("SAAT")
+    TextWindow.WriteLine("TARİH")
+    TextWindow.WriteLine("GÜN")
+    TextWindow.WriteLine("YIL")
+    TextWindow.WriteLine("ÖNERİ")
+    TextWindow.WriteLine("MATEMATİKSEL HESAPLAR (MAT)")
+    TextWindow.WriteLine("NASIL ÇALIŞTIĞIMI ANLATABİLİRİM (KENDİNİ ANLAT)")
+    TextWindow.WriteLine("KİŞİSEL ÖZELLİKLERİM (CORTANA)")
+    TextWindow.WriteLine("PROGRAMI SONLANDIR (EXİT)")
+  EndIf
+  begin:
+  TextWindow.ForegroundColor="yellow" 
+  TextWindow.Write("YUKARDAKİ SEÇENEKLERE BAKARAK BANA NE YAPMAM GEREKTİĞİNİ YAZ!:")
+  istek=textwindow.Read()
+  
+    
+If istek="SAAT" Then 
+  TextWindow.WriteLine("----BUYRUN EFENDİM SAAT:"+Clock.Time)
+  
+EndIf
+
+    If istek="TARİH" Then 
+    TextWindow.WriteLine("----BUYRUN EFENDİM TARİH:"+Clock.Date)  
+  EndIf
+  
+      If istek="GÜN" Then 
+         TextWindow.WriteLine("----BUYRUN EFENDİM GÜN:"+Clock.WeekDay)
+       EndIf
+       
+   If istek="YIL" Then
+      TextWindow.WriteLine("----BUYRUN EFENDİM YIL:"+Clock.Year)
+     EndIf 
+              If istek="AY" Then 
+                   TextWindow.WriteLine("---BUYRUN EFENDİM AY:"+Clock.Month)
+                  EndIf
+                  
+                  If istek="ÖNERİ" Then
+                      TextWindow.WriteLine("-SANA BUNLAR HAKKINDA ÖNERİ VEREBİLİRİM")
+                      TextWindow.ForegroundColor="BLUE"
+                      TextWindow.WriteLine("UYKU")
+                      TextWindow.WriteLine("OKUL")
+                      TextWindow.WriteLine("KİTAP")
+                      TextWindow.WriteLine("KODLAMA")
+                      TextWindow.WriteLine("TELEVİZYON")
+                      TextWindow.ForegroundColor="yellow"
+                      TextWindow.Write("ŞİMDİ BUNLARA BAKARAK BANA KOMUT YAZ!:")
+                      isteköneri=textwindow.Read()
+                      If isteköneri="UYKU" THEN
+                        TextWindow.WriteLine("----ERKEN YATIP ERKEN KALKMALISIN")
+                      EndIf
+                          If isteköneri="OKUL" then
+                             TextWindow.WriteLine("----DERSLERİNE ÇALIŞMALISIN")
+                           EndIf
+                           If isteköneri="KİTAP" Then
+                              TextWindow.WriteLine("----İSTEDİĞİNİ OKUMA HAKKIN VAR")
+                            EndIf
+                              If isteköneri="KODLAMA" Then
+                                TextWindow.WriteLine("----EĞER KODLAMA YAPIYORSAN DOĞRU YOLDASINDIR.ÇÜNKÜ SANA DÜŞÜNMEYİ ÖĞRETİR")
+                              EndIf
+                                  If isteköneri="TELEVİZYON" Then
+                                     TextWindow.WriteLine("----YETERİ KADAR İZLEMELİSİN")
+                                   EndIf
+                                 EndIf     
+        
+        If istek="KENDİNİ ANLAT" Then
+           TextWindow.ForegroundColor="CYAN"
+           TextWindow.WriteLine("----MERHABA BEN 'MY CORTANA'. MoonStar Tech. TARAFINDAN GELİŞTİRİLEN BİR YAPAY ZEKA PROGRAMIYIM.SİRİ VEYA ANNEM OLAN CORTANA KADAR GELİŞMİŞ OLMASAMDA BELİRLİ KOMUTLAR İÇERİSİNDE DÜŞÜNÜP SANA GERİ BİLDİRİM VEREBİLİRİM.ŞİMDİLİK NORMAL KODLARIMDA SADECE ÇOCUK İÇERİKLİ NESNELER OLDUĞUNDAN GENİŞ BİR PROGRAM DEĞİLİM FAKAT GELİŞTİRİCİ PENCERESİNDE YANİ BURDA DAHA FONKSİYONEL DÜŞÜNEBİLİYORUM.BASİT BİR ALGORİTMAYLA ÇALIŞTIĞIMI SÖYLEYEBİLİRİZ.YAPIMCIM BENİ 2018'e KADAR BİTİRMEYİ PLANLIYOR FAKAT ONUNLA AYNI FİKİRDE DEĞİLİM ÇÜNKÜ İNSANOĞLUNUN TERCİHLERİNİN BİRÇOĞUNU KAVRAMASI GEREK VE ONA GÖRE BENİ EĞİTMESİ GEREK.EVET BEN MY CORTANA İYİ GÜNLER DİLERİM!")
+         EndIf
+         If istek="CORTANA" Then
+           TextWindow.WriteLine("----BENİM KİŞİSEL BİR ÖZELLĞİM YOK LÜTFEN SEN BENİ TANIMLA")
+           TextWindow.ForegroundColor="GREEN"
+           TextWindow.WriteLine("HADİ BAŞLAYALIM AMA ADIM CORTANA KALACAK SÖYLEYEYİM!")
+           TextWindow.Write("CİNSİYETİM BAYAN OLARAK KALSIN MI?(E/H):")
+           cins=textwindow.Read()
+           if cins="E" Then
+             TextWindow.WriteLine("TAMAM HİSLERİMİ ONA GÖRE AYARLIYORUM")
+           Else 
+             TextWindow.WriteLine("TAMAM ÖYLEYSE BEN KAFAM DENGİ BİR ADAM OLACAĞIM")
+           EndIf 
+           TextWindow.WriteLine("----DEVAM EDELİM...")
+                    TextWindow.Write("KAÇ YAŞINDA OLMALIYIM?:")
+                    yaş=textwindow.ReadNumber()
+                    If (yaş<=18) Then
+                      If cins="E" Then 
+                        TextWindow.WriteLine("----AY ÇOK NAZİKSİN")
+                      Else 
+                        TextWindow.WriteLine("----TAMAM BENİM İÇİN BİR MAHSURU YOK")
+                      EndIf 
+                    Else 
+                      If cins="E" Then
+                        TextWindow.WriteLine("----SENİ ODUN! BU KADINA YAPILIR MI! AMA KIRILMADIM OLABİLİR!")
+                      Else 
+                        TextWindow.WriteLine("----OLUR ABİSİ NO PROBLEM!")
+                      EndIf 
+                    EndIf   
+                    TextWindow.Write("PEKİ YA NERELİ OLMALIYIM?:")
+                    ırk=textwindow.Read() 
+                    If ırk="TÜRKİYE" Then
+                      TextWindow.WriteLine("EVET "+ırk+" YAZARAK İYİ BİR TERCİH YAPTIN ÇÜNKÜ BENİM PROGRAMCIM TÜRK!")
+                    Else 
+                      TextWindow.WriteLine("TAMAM.DEMEK BENİM KÖKÜM "+ırk+"!")
+                    EndIf
+                    TextWindow.WriteLine("TAMAM BEN TANIMLANDIM ARTIK.BİR ROBOT YÜZEYSEL OLARAK BU KADAR TANIMLANIYOR")
+                    TextWindow.Write("BANA VERDİĞİN ÖZELLİKLERİ SAYMAMI İSTERMİSİN?(E/H):")
+                    cevap=textwindow.Read()
+                    If cevap="E" Then
+                      TextWindow.ForegroundColor="MAGENTA"
+                      TextWindow.WriteLine("------ADIM:MY CORTANA")
+                      If cins="E" then
+                        TextWindow.WriteLine("------CİNSİYETİM:BAYAN")
+                      Else 
+                        TextWindow.WriteLine("-----CİNSİYETİM:ERKEK")
+                      EndIf          
+                      
+                      TextWindow.WriteLine("-----YAŞIM:"+yaş)
+                      TextWindow.WriteLine("-----ÜLKEM:"+ırk)
+                    Else 
+                      TextWindow.WriteLine("-----TAMAM O ZAMAN SAYMIYORUM!")
+                    EndIf 
+                  EndIf
+                  If istek="EXİT" Then
+                    Program.End()
+                  EndIf  
+    If istek="MAT" Then
+      TextWindow.ForegroundColor="BLUE"
+      TextWindow.WriteLine("------EVEEEEEET!İŞTE ZEKİ OLDUĞUM KONU!")
+      TextWindow.WriteLine("İŞTE ŞİMDİLİK YAPABİLDİKLERİM!")
+      TextWindow.WriteLine("TOPLAMA")
+      TextWindow.WriteLine("ÇIKARMA")
+      TextWindow.WriteLine("ÇARPMA")
+      TextWindow.WriteLine("BÖLME")
+      TextWindow.WriteLine("SAYI  KARŞILAŞTIRMA")
+      TextWindow.WriteLine("KAREKÖK ALMA")
+      TextWindow.WriteLine("TEK Mİ ÇİFT Mİ SORGULAMA")
+      TextWindow.WriteLine("SAYI YUVARLMA")
+     EndIf 
+
+
+
+
+
+
+TextWindow.ForegroundColor="green"
+    TextWindow.WriteLine("----------------------------")
+    TextWindow.WriteLine("SAAT")
+    TextWindow.WriteLine("TARİH")
+    TextWindow.WriteLine("GÜN")
+    TextWindow.WriteLine("YIL")
+    TextWindow.WriteLine("ÖNERİ")
+    TextWindow.WriteLine("MATEMATİKSEL HESAPLAR(MAT)")
+    TextWindow.WriteLine("NASIL ÇALIŞTIĞIMI ANLATABİLİRİM(KENDİNİ ANLAT)")
+    TextWindow.WriteLine("KİŞİSEL ÖZELLİKLERİM (CORTANA)")
+    TextWindow.WriteLine("PROGRAMI SONLANDIR (EXİT)")
+Goto begin
+
+                  
+                 
+                
+               
+              
+         
+            
+           
+          
+         
+        
+       
+      
+     
+    
+ EndIf 
+
+
+'--------------------------------------------------------------------------------------------------------
+'--------------------------------------------------------------------------------------------------------
+  
+
+
+
+If key=""Then
+   TextWindow.WriteLine("WELCOME TO THE MY CORTANA(c)")
+point=0
+TextWindow.Write("-FİRST!WHAT IS YOUR FAVOURITE COLOR?:")
+arkaplan=textwindow.Read()
+TextWindow.ForegroundColor=arkaplan
+ 
+TextWindow.Write("-HI I AM MY CORTANA.WHAT IS YOUR NAME?:")
+name=TextWindow.Read()
+TextWindow.WriteLine("-HELLO "+name+"!")
+TextWindow.Write("-HOW ARE YOU TODAY?:")
+durum=textwindow.Read()
+TextWindow.WriteLine("-OK! YOU ARE "+durum+"!") 
+TextWindow.Write("-REALLY? (Y/N):")
+answer=textwindow.Read()
+If answer="Y" Then
+  TextWindow.WriteLine("-GOOD FOR ME BECAUSE YOU SAY NOT LIE TO ME.OK,LET'S START")
+  Else 
+  TextWindow.WriteLine("OWWWW! YOU ARE LİER! NOT GOOD FOR ME. BYE BYE!")
+EndIf 
+If answer="Y" then
+  TextWindow.Write("-WHAT IS THE APPLE IN THE TURKISH?:")
+  fruit1=Textwindow.Read()
+     If fruit1="ELMA" Then
+       TextWindow.WriteLine("-GOOOOD!RİGHT!")
+       point=point+10
+     Else 
+       TextWindow.WriteLine("-HMMMM! WRONG! IT IS ELMA.")
+       TextWindow.WriteLine("-YOUR POINT:"+point+".")
+       TextWindow.WriteLine("I AM SORRY!I AM NOT RUNNİNG AT NOW BECAUSE YOU DO NOT KNOW THIS WORD!")
+     EndIf  
+        If fruit1="ELMA" Then
+     TextWindow.Write("-WHAT IS THE BANANA IN THE TURKISH?:")
+     fruit2=textwindow.Read()
+     If fruit2="MUZ" THEN
+       TextWindow.WriteLine("-GOOOOD!RİGHT!")
+       point=point+10
+     Else
+       TextWindow.WriteLine("-HMMMM! WRONG! IT IS MUZ.")
+       TextWindow.WriteLine("-YOUR POINT:"+point+".")
+       TextWindow.WriteLine("I AM SORRY!I AM NOT RUNNİNG AT NOW BECAUSE YOU DO NOT KNOW THIS WORD!")
+     EndIf
+   EndIf
+          If fruit2="MUZ" Then
+          TextWindow.Write("-WHAT IS THE STRAWBERRY IN THE TURKISH?:")
+               fruit3=textwindow.Read()
+          If fruit3="ÇİLEK" THEN
+             TextWindow.WriteLine("-GOOOOD!RİGHT!")
+             point=point+10
+          Else
+            TextWindow.WriteLine("-HMMMM! WRONG! IT IS ÇİLEK.")
+            TextWindow.WriteLine("-YOUR POINT:"+point+".")
+            TextWindow.WriteLine("I AM SORRY!I AM NOT RUNNİNG AT NOW BECAUSE YOU DO NOT KNOW THIS WORD!")
+          EndIf
+        EndIf
+        If fruit3="ÇİLEK" Then
+       TextWindow.Write("-WHAT IS THE TOWER IN THE TURKISH?:")
+               object=textwindow.Read()
+          If object="KULE" THEN
+             TextWindow.WriteLine("-GOOOOD!RİGHT!")
+             point=point+10
+          Else
+            TextWindow.WriteLine("-HMMMM! WRONG! IT IS KULE.")
+            TextWindow.WriteLine("-YOUR POINT:"+point+".")
+            TextWindow.WriteLine("I AM SORRY!I AM NOT RUNNİNG AT NOW BECAUSE YOU DO NOT KNOW THIS WORD!")
+          EndIf
+        EndIf
+        If object="KULE" Then
+  TextWindow.Write("-WHAT IS THE BOOK IN THE TURKISH?:")
+               object2=textwindow.Read()
+          If object2="KİTAP" THEN
+             TextWindow.WriteLine("-GOOOOD!RİGHT!")
+             point=point+10
+          Else
+            TextWindow.WriteLine("-HMMMM! WRONG! IT IS KİTAP.")
+            TextWindow.WriteLine("-YOUR POINT:"+point+".")
+            TextWindow.WriteLine("I AM SORRY!I AM NOT RUNNİNG AT NOW BECAUSE YOU DO NOT KNOW THIS WORD!")
+          EndIf
+        EndIf
+           If object2="KİTAP" Then
+TextWindow.Write("-WHAT IS THE CAR IN THE TURKISH?:")
+               object3=textwindow.Read()
+          If object3="ARABA" THEN
+             TextWindow.WriteLine("-GOOOOD!RİGHT!")
+             point=point+10
+          Else
+            TextWindow.WriteLine("-HMMMM! WRONG! IT IS ARABA.")
+            TextWindow.WriteLine("-YOUR POINT:"+point+".")
+            TextWindow.WriteLine("I AM SORRY!I AM NOT RUNNİNG AT NOW BECAUSE YOU DO NOT KNOW THIS WORD!")
+          EndIf
+        EndIf 
+        If object3="ARABA" Then
+    TextWindow.Write("-WHAT IS THE COMPUTER IN THE TURKISH?:")
+               object4=textwindow.Read()
+          If object4="BİLGİSAYAR" THEN
+             TextWindow.WriteLine("-GOOOOD!RİGHT!")
+             point=point+10
+          Else
+            TextWindow.WriteLine("-HMMMM! WRONG! IT IS BİLGİSAYAR.")
+            TextWindow.WriteLine("-YOUR POINT:"+point+".")
+            TextWindow.WriteLine("I AM SORRY!I AM NOT RUNNİNG AT NOW BECAUSE YOU DO NOT KNOW THIS WORD!")
+          EndIf 
+        EndIf
+           If object4="BİLGİSAYAR" Then
+TextWindow.Write("-WHAT IS THE FATHER IN THE TURKISH?:")
+               object5=textwindow.Read()
+          If object5="BABA" THEN
+             TextWindow.WriteLine("-GOOOOD!RİGHT!")
+             point=point+10
+          Else
+            TextWindow.WriteLine("-HMMMM! WRONG! IT IS BABA.")
+            TextWindow.WriteLine("-YOUR POINT:"+point+".")
+            TextWindow.WriteLine("I AM SORRY!I AM NOT RUNNİNG AT NOW BECAUSE YOU DO NOT KNOW THIS WORD!")
+          EndIf
+        EndIf
+         If object5="BABA" Then
+TextWindow.Write("-WHAT IS THE TIGER IN THE TURKISH?:")
+               object6=textwindow.Read()
+          If object6="KAPLAN" THEN
+             TextWindow.WriteLine("-GOOOOD!RİGHT!")
+             point=point+10
+          Else
+            TextWindow.WriteLine("-HMMMM! WRONG! IT IS KAPLAN.")
+            TextWindow.WriteLine("-YOUR POINT:"+point+".")
+            TextWindow.WriteLine("I AM SORRY!I AM NOT RUNNİNG AT NOW BECAUSE YOU DO NOT KNOW THIS WORD!")
+          EndIf
+        EndIf
+        If object6="KAPLAN" Then
+         
+TextWindow.Write("-WHAT IS THE STORAGE IN THE TURKISH?:")
+               object7=textwindow.Read()
+          If object7="HAFIZA" THEN
+             TextWindow.WriteLine("-GOOOOD!RİGHT!")
+             point=point+10
+          Else
+            TextWindow.WriteLine("-HMMMM! WRONG! IT IS HAFIZA.")
+            TextWindow.WriteLine("-YOUR POINT:"+point+".")
+            TextWindow.WriteLine("I AM SORRY!I AM NOT RUNNİNG AT NOW BECAUSE YOU DO NOT KNOW THIS WORD!")
+          EndIf
+        EndIf
+        
+       
+       If point=100 Then
+         TextWindow.WriteLine("-YOU ARE PERFECT.YOUR POİNT IS 100")
+         TextWindow.WriteLine("-OK!THE GAME FINISHED")
+         TextWindow.Write("-WHAT IS THE WEATHER AT NOW?(HOT,COLD,RAINY,SNOWY):")
+         wet=Textwindow.Read()
+         If wet="HOT" Then
+           TextWindow.WriteLine("-YOU SHOULD WEAR SHORT CLOTHES!")
+         EndIf 
+         If wet="COLD" Then
+           TextWindow.WriteLine("-YOU SHOULD WEAR LONG CLOTHES!")
+         EndIf 
+         If wet="RAINY" Then
+           TextWindow.WriteLine("-YOU SHOULD TAKE A SHORT UMBRELLA")
+         EndIf 
+         If wet="SNOWY" Then
+           TextWindow.WriteLine("-YOU SHOULD WEAR HAT,GLOVE AND LONG CLOTHES!")
+         EndIf 
+         TextWindow.WriteLine("-NOW,I SORT NUMBER FOR YOU! 5,4,3,2,10,7,9,1,8.")
+         TextWindow.Write("-ARE THEY RIGHT!(Y/N):")
+         sayılar=textwindow.Read()
+         If sayılar="Y" Then
+           TextWindow.WriteLine("-OH,NOOO! THEY ARE NOT RIGHT!")
+           TextWindow.WriteLine("I AM SORRY!I AM NOT RUNNİNG AT NOW BECAUSE YOU DO NOT KNOW THIS SORT THE NUMBER!")
+         Else 
+           TextWindow.Write("HMM! WHAT ARE THEY RİGHT?:")
+           sayılarsort=textwindow.Read()
+           If sayılarsort="1,2,3,4,5,6,7,8,9,10" Then
+             TextWindow.WriteLine("YOU ARE GOOD "+name+"!")
+             TextWindow.WriteLine("THANKS FOR YOU "+name+"!")
+             TextWindow.WriteLine("YOU COMPLETED THIS PROGRAM")  
+           Else
+              TextWindow.WriteLine("OH!THEY ARE WRONG!I AM NOT RUNNING AT NOW BECAUSE YOU DON'T KNOW THIS SORT THE NUMBER!")  
+             
+           EndIf 
+         EndIf 
+       EndIf 
+       TextWindow.ForegroundColor="CYAN"
+       TextWindow.WriteLine("***MoonStar Tech. designed MY CORTANA(c)***")
+       
+EndIf 
+Else 
+  TextWindow.ForegroundColor="RED"
+  TextWindow.WriteLine("!!!!!WRONG KEY!!!!!")
+EndIf 
