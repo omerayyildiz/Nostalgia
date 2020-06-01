@@ -57,23 +57,9 @@ If key="SXAasxqDS12345" Then
                    TextWindow.WriteLine("İLK ÖNCE BİLGİSAYARIM'A GİRİP KİŞİSELLEŞTİRİLECEK USB'NİN PORTUNU ÖĞREN.ÖRNEĞİN (H:/G:/I:..)")
              
          TextWindow.WriteLine("---------------------------")
-                                  
-    
-
-
-
+         
 EndIf     
       
-                            
- 
-
-
-
-
-
-
-
-
     else
       TextWindow.ForegroundColor="RED"
       TextWindow.WriteLine("ANAHTAR HATALI,LÜTFEN TEKRAR DENEYİN!")

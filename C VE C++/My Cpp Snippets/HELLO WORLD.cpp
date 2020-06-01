@@ -3,12 +3,8 @@
 using namespace std;
 int main()
 {
-	cout<<"HELLO WORLD"<<endl;
-	
-	
-	
-	
-	
-system("PAUSE");	
-return 0;
+	cout << "HELLO WORLD" << endl;
+
+	system("PAUSE");
+	return 0;
 }

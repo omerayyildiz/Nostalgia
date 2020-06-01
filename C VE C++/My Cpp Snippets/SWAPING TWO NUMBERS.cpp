@@ -5,19 +5,17 @@
 using namespace std;
 int main()
 {
-	int x,y,temp;
-	  cout<<"ENTER THE VALUE OF X AND Y:";
-	     cin>>x>>y;
-	 cout<<"BEFORE SWAPPING\nx="<<x<<"\ny="<<y<<"\n";
-	                                                  /*Burası Önemli*/	 
+	int x, y, temp;
+	cout << "ENTER THE VALUE OF X AND Y:";
+	cin >> x >> y;
+	cout << "BEFORE SWAPPING\nx=" << x << "\ny=" << y << "\n";
+	/*Burasï¿½ ï¿½nemli*/
 	temp = x;
-	   x=y;
-	  y=temp;
-	  
-	 cout<<"AFTER SWAPPING\nx="<<x<<"\ny="<<y<<"\n";    
-    
-	
-	
-	system( "PAUSE" );
+	x = y;
+	y = temp;
+
+	cout << "AFTER SWAPPING\nx=" << x << "\ny=" << y << "\n";
+
+	system("PAUSE");
 	return 0;
 }

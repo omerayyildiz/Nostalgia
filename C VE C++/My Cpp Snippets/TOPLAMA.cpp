@@ -5,18 +5,15 @@
 using namespace std;
 int main()
 {
-	cout<<"DEGISKEN GIR:";
+	cout << "DEGISKEN GIR:";
 	int a;
-	  cin>>a;
-	     cout<<"DEGISKEN GIR:";
-	     int b;
-	       cin>>b;
-	cout<<"TAM SAYILARININ TOPLAMI:"<<a+b<<endl;
-    cout<<"ISLEM TAMAMLANDI..."<<endl;
-	
-	
-	
-	
+	cin >> a;
+	cout << "DEGISKEN GIR:";
+	int b;
+	cin >> b;
+	cout << "TAM SAYILARININ TOPLAMI:" << a + b << endl;
+	cout << "ISLEM TAMAMLANDI..." << endl;
+
 	system("PAUSE");
 	return 0;
 }

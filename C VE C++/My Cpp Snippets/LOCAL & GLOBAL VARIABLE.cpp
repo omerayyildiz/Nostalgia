@@ -1,28 +1,14 @@
 #include <iostream>
 using namespace std;
- 
- 
-int a=20; //BU PROJE ÝÇÝN GEÇERLÝ KISIM! ANA KISMI ETKÝLEMEZ!
+
+int a = 20; //BU PROJE ï¿½ï¿½ï¿½N GEï¿½ERLï¿½ KISIM! ANA KISMI ETKï¿½LEMEZ!
 
 int main()
 {
-	int a=20; //YAZDIRILAN DEÐERDÝR!
-	
-	cout<<a<<endl;
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-system("PAUSE");	
-return 0;
+	int a = 20; //YAZDIRILAN DEï¿½ERDï¿½R!
+
+	cout << a << endl;
+
+	system("PAUSE");
+	return 0;
 }
